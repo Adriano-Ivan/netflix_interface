@@ -1,0 +1,67 @@
+:root {
+  --azul: rgb(53, 53, 187);
+  --preto: #141414;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*BASE*/
+body {
+  background: var(--preto);
+  font-family: "Girassol";
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+header {
+  padding: 8px;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--azul);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*Main movie*/
+.main-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/capa-2001.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-movie .description {
+  margin-bottom: 40px;
+  font-family: Trebuchet MS;
+}
+
+.title {
+  font-size: 40px;
+}
