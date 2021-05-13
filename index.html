@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NETFLIX CLONE - ir para parte 5</title>
+    <title>NETFLIX CLONE - ir para parte 7</title>
     <link rel="stylesheet" href="style/main_style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Girassol&display=swap"
       rel="stylesheet"
     />
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css" />
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <h2 class="logo">CLASSICfFLIX</h2>
+        <h2 class="logo">CLASSICFLIX</h2>
         <nav>
           <a href="">Início</a>
           <a href="">Filmes</a>
@@ -54,9 +60,47 @@
       </div>
     </main>
 
+    <div class="carrossel-filmes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/cas.jpg" class="box-film" alt="Casablanca" />
+        </div>
+        <div class="item">
+          <img src="img/cid.jpg" class="box-film" alt="Cidade dos sonhos" />
+        </div>
+        <div class="item">
+          <img src="img/pulp.jpg" class="box-film" alt="Pulp Fiction" />
+        </div>
+        <div class="item">
+          <img src="img/thewind.jpg" class="box-film" alt="E o vento levou" />
+        </div>
+        <div class="item">
+          <img
+            src="img/twin.jpg"
+            class="box-film"
+            alt="Twin Peaks: Os últimos dias de Laura Palmer"
+          />
+        </div>
+        <div class="item">
+          <img src="img/ossete.jpg" class="box-film" alt="Os sete samurais" />
+        </div>
+        <div class="item">
+          <img src="img/blade.jpg" class="box-film" alt="Blade Runner" />
+        </div>
+        <div class="item">
+          <img src="img/lar.jpg" class="box-film" alt="Laranja Mecânica" />
+        </div>
+        <div class="item">
+          <img src="img/met.jpg" class="box-film" alt="Metropólis" />
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/e63d069b5b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

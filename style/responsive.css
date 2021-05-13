@@ -1,0 +1,36 @@
+@media screen and (min-width: 480px) and (max-width: 830px) {
+  header .container {
+    flex-direction: column;
+  }
+  header a {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 290px) and (max-width: 479px) {
+  header .container {
+    flex-direction: column;
+  }
+  header a {
+    font-size: 8px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .btn {
+    margin-bottom: 10px;
+    font-size: 9px;
+  }
+}
